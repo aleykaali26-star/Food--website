@@ -1,0 +1,175 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body{
+  background: #e2e2db;
+}
+
+.header{
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  width: 100%;
+  background: #e2e2db;
+}
+
+
+.header-nav{ 
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.header-nav a{
+  font-size: 1rem;
+  font-weight: 500;
+  color: #642929;
+  text-decoration: none;
+}
+
+.header-nav a:nth-child(4){
+  border: none;
+  background: #fff;
+  padding: 5px 8px;
+  border-radius: 8px;
+}
+
+.header h1{
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #642929;
+}
+
+
+.main{
+  padding-top: 53px;
+  
+}
+
+.img{
+  width: 100%;
+  height: auto;
+  
+  webkit-mask-image: linear-gradient(to bottom, black     70%, transparent 100%);
+  mask-image: linear-gradient(to bottom, black 85%,       transparent 100%);
+}
+
+.main h1{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #642929;
+  margin: 50px auto;
+}
+
+
+.main p{
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #642929;
+  text-align: left;
+  margin: 0 auto;
+  max-width: 1800px;
+  padding-left: 15px;
+  margin-bottom: 50px;
+}
+
+
+.Store-img{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 0 0 10px 0;
+  background: #e8e8e2;
+  margin-bottom: 40px;
+}
+
+
+
+.Store-img img{
+  width: 100%;
+  max-width: 400px;
+  
+}
+
+.Store-img h1{
+ color: #642929;
+}
+.Store-img p{
+  color: #642929;
+}
+
+
+
+.list{
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #642929;
+  text-align: center;
+  margin-top: 70px;
+}
+
+
+.list h2{
+  font-weight: 500;
+  color: #642929;
+  text-align: center;
+}
+
+.list p{
+  font-weight: 250;
+  color: #642929;
+  text-align: center;
+  
+}
+
+
+.footer{
+  background: #230d0d;
+  padding-top: 5px;
+  margin-top: 70px;
+  
+}
+.content-footer{
+  margin: 30px 10px;
+  text-align: left;
+  font-weight: 200;
+  color: #e8e8e2;
+}
+
+
+
+.social-media{
+  text-align: center;
+  font-weight: 200;
+  margin-bottom: 20px;
+  
+}
+
+
+.social-media a{
+  color: #e8e8e2;
+  text-decoration: none;
+  padding: 8px;
+  
+}
+
+
+.footer-btm{
+  text-align: center;
+  font-weight: 200;
+  color: #e8e8e2;
+}
+
